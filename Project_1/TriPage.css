@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body{
+    background-color: #fff;
+}
+
+/* container including rectangular box */
+
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 10px solid #1d1e4c;
+    height: 1050px;
+    width: 700px;
+    background-color: #E5E5FD;
+    ;
+}
+
+/* img of APJ */
+.img img{
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 80px;
+    border-radius: 100px;
+}
+
+/* Name of APJ  */
+.heading-1{
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 190px;
+    margin-top: -120px;
+}
+.heading-1 h5{
+    margin-top: -28px;
+    margin-left: 240px;
+}
+
+ /* hi! I am here Paragraph 1  */
+ .para-1{
+    font-family: 'PT Sans', sans-serif;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+ }
+ .para-1 h1{
+    font-size: 40px;
+
+ }
+ .para-1 p{
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: -05px;
+ }
+
+ /* Why are ignoring me Paragraph 2 */
+ .para-2{
+    font-family: 'PT Sans', sans-serif;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+ .para-2 h3{
+    margin-top: 40px;
+    
+ }
+ .para-2 ul li{
+    font-size: 12px;
+    line-height: 22px;
+    margin-left: -20px;
+ }
+
+ /* Last Para is here Paragraph 3 */
+ .para-3{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+ }
+ .para-3 a{
+    text-decoration: none;
+ }

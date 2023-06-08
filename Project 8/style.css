@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans&family=Roboto+Flex:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto Flex', sans-serif; 
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+}
+
+header{
+    border: 1px solid #ccc;
+    height: 230vh;
+}
+
+nav h1{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    letter-spacing: 1px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    color: #000;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li:hover{
+    background: #ccc;
+    transition: 0.3s ease-in-out;
+}
+
+/* Main Section  */
+
+main{
+    padding: 50px;
+    max-width: 1200px;
+}
+
+section{
+    padding-bottom: 50px;
+}
+
+section article{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section h1{
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section article ul {
+    margin-left: 40px;
+}
+
+section article ul li {
+    margin-bottom: 10px;
+}
+
+code{
+    white-space: pre-line;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+    body{
+        flex-direction: column;
+    }
+
+    header{
+        height: auto;
+    }
+}
